@@ -1,7 +1,7 @@
 # Ing-software1
 Repositorio de la materia "Ingenieria de Software 1" unlp 2023
 
-### Links que me ayudaron a aprobar la materia:
+### Links utiles para la materia:
 -Repositorio de agusrnfr con ejercicios y parciales:  
 https://github.com/agusrnfr/ING-1/tree/main
 
