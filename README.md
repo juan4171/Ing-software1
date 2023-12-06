@@ -41,6 +41,28 @@ https://app.diagrams.net/
 
 -La flecha de herencia apunta de un actor a DE QUIEN hereda, osea podríamos decir actor 2 hereda de (flechita a) actor 1, actor 2 ES UN actor 1.
 
+#### Practica 4 Diagramas de Transición de Estados:
+-PUEDE haber eventos sin acciones, pero no son tan comunes, generalmente en un evento el sistema hace algo pero no es obligatorio.
+
+-si ocurre un evento que no esta modelado, el estado sigue funcionando en el mismo estado porque ese evento no se modelo ninguna transición para ese evento.
+
+-todos los estados deben tener salida.
+-todos los estados deben tener al menos una entrada.
+
+-debe haber 1 y solo 1 estado inicial.
+
+-la transición de inicio no tiene que tener condiciones porque no tiene sentido.
+
+-los estados iniciales y finales no tienen nombre como el resto de estados.
+
+-las acciones (siempre acciones del sistema) se pueden escribir de 2 maneras: "Se enciende el motor" o "Encender el motor" (encender verbo en infinitivo) ambas están bien, algunos profes prefieren el verbo en infinitivo y generalmente quedan acciones mas cortas de escribir.
+
+-puedo tener 2 o mas transiciones iguales? RTA: no, puede ser identico el evento que genere la transición pero deben diferir las condiciones para que sea deterministico el modelo osea, que al suceder un evento suceda 1 y solo 1 transición. En el caso en el que tengo 2 transiciones de evento y acciones idénticas (ósea solo difieren en la condición) esas transiciones deberían apuntar a estados distintos o una de esas transiciones no va. 
+
+-como identificar un estado? RTA: los estados merecen existir cuando se espera una interacción de un usuario, o por cuestiones internas del sistemas por ej: cuando el sistema tiene algo que puede interrumpir el funcionamiento como un timer o un sensor de temperatura que detiene la maquina a tal temperatura. GENERALMENTE: "esperando x cosa".
+
+-cuando salgo de un estado para ir a otro, generalmente debería deshabilitar botones que ya no se van a usar y habilitar los nuevos que va a tener el nuevo estado, esto depende de quien lo corrija porque algunos profs no lo ven "tan necesario" pero mientras mas cosas aclares que habilitas y deshabilitas, mas claro queda el diagrama (en los ejercicios con displays son donde mas hay que habilitar y deshabilitar botones).
+
 #### Practica 5 Redes de Petri:
 
 -¿Una transición puede tener dos acciones en el nombre? RTA: Si se puede, por ejemplo, "Terminar de firmar y se retira".
