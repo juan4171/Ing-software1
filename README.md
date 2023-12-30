@@ -1,6 +1,6 @@
 # Ing-software1
 Repositorio de la materia "Ingenieria de Software 1" unlp 2023.  
-La practica 5 de RP tiene todos los puntos corregidos por ayudantes pero las practicas 1, 2, 3 y 4 no alcance a completarlos y corregirlos todos.
+Las practicas 4 y 5 (Dte y RP) tienen todos los puntos corregidos por ayudantes, las practicas 1, 2 y 3 no alcance a completar y corregirlos todos.
 
 ### Links utiles para la materia:
 -Repositorio de agusrnfr con ejercicios y parciales:  
@@ -11,6 +11,12 @@ https://docs.google.com/
 
 -Draw.io para hacer diagramas de cu, dte y redes de petri:  
 https://app.diagrams.net/
+
+-Explicaciones y ejercicios resultos en practica 2021:  
+https://drive.google.com/drive/u/0/folders/1UjJ1wP89T-SJTLf9fQrORbh36o_PUjWe
+
+-Consultas practicas grabadas 2021:  
+https://www.youtube.com/playlist?list=PLeVhd2SrgCdTqQ-MD40JMRzXP57YcDVXb
 
 ### Dudas resueltas que fueron surgiendo mientras hacia las practicas:
 #### Practica 2 Historias de usuario:
@@ -47,6 +53,7 @@ https://app.diagrams.net/
 -si ocurre un evento que no esta modelado, el estado sigue funcionando en el mismo estado porque ese evento no se modelo ninguna transición para ese evento.
 
 -todos los estados deben tener salida.
+
 -todos los estados deben tener al menos una entrada.
 
 -debe haber 1 y solo 1 estado inicial.
