@@ -1,6 +1,6 @@
 # Ing-software1
 Repositorio de la materia "Ingenieria de Software 1" unlp 2023.  
-Las practicas 4 y 5 (Dte y RP) tienen todos los puntos corregidos por ayudantes, las practicas 1, 2 y 3 no alcance a completar y corregirlos todos.
+Las practicas 4 y 5 (Dte y RP) tienen todos los puntos corregidos por ayudantes, las practicas 1, 2, 3 y 6 no alcance a completar y corregirlos todos.
 
 ### Links utiles para la materia:
 -Repositorio de agusrnfr con ejercicios y parciales:  
